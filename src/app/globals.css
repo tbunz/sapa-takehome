@@ -4,9 +4,10 @@
 
 :root {
   --main-bg: #ffffff;
+  --main-pad: 5px;
 }
 
 body {
-  background: var(--main-bg)
+  background: var(--main-bg);
 }
 

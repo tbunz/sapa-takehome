@@ -1,14 +1,11 @@
-import Image from "next/image";
-
+import Header from "./Header";
 export default function Home() {
   return (
-    <main className="flex flex-col">
-      <div>
-        <div>Header</div>
-        <div>Utah Grown IMG</div>
-      </div>
+    <main className="min-h-screen flex flex-col">
+     
+      <Header/>
       
-      <div>Upcoming</div>
+      <div className="">Upcoming</div>
       
       <div>Things to Know</div>
     </main>
