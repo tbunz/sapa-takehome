@@ -22,7 +22,7 @@ export default function Faqs() {
 
     return (
 
-        <div className="mt-16 flex w-full justify-center">
+        <div className="mt-24 flex w-full justify-center">
             <div className=" w-3/4 lg:w-2/3 flex flex-col">
                 <div className="mb-4 text-4xl font-prox text-greenOne font-semibold">
                     FAQs...

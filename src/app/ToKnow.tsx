@@ -19,12 +19,12 @@ export default function ToKnow() {
     ]    
     return (
 
-        <div className="mt-14 flex flex-col">
+        <div className="mt-24 flex flex-col">
             <div className=" text-center text-xl lg:text-4xl text-greenOne font-prox font-bold justify-center  flex">
                 <div>Things to know before your appointment</div>
             </div>
             <div className="flex w-full justify-center text-lg font-semibold text-greenOne">
-                <div className="mt-14 w-3/4 lg:w-2/3 flex justify-center">
+                <div className="mt-6 w-3/4 lg:w-2/3 flex justify-center">
                     <div className="flex flex-col text-center items-center md:text-start md:grid md:grid-cols-10">
                         <Image
                         src={"/Number1@2x.png"}

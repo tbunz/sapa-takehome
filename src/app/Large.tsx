@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Large() {
   
     return (
-        <div className="mt-24 flex flex-col items-center">
+        <div className="mt-28 flex flex-col items-center">
             <a  href="https://leafnation" className="mt-4 w-3/4 md:w-2/3">
                 <Image
                 src={"/MockBannerAd@2x.png"}
