@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Header() {
   return (
-      <div className="w-full block relative">
+      <div className="w-full block relative font-semibold text-greenOne">
         <Image
           src="/TopHeaderImage@2x.png"
           priority={true}
@@ -24,12 +24,11 @@ export default function Header() {
 
         <div className="w-full absolute bottom-0 h-1/2">
             <Image
-            src="/UtahGrownLogo-Green@2x.png"
-            priority={true}
+            src="/UtahGrownLogoWhiteBorder@2xEDITED.png"
             fill={true}
             className="object-contain absolute bottom-0 z-10"
             alt="Utah Grown"
-            />
+            />    
             <div className="h-1/6 w-full bg-greenOne absolute bottom-0"></div>
         </div>
       </div>

@@ -1,13 +1,21 @@
 import Header from "./Header";
+import Upcoming from "./Upcoming";
+import ToKnow from "./ToKnow";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex-col flex">
      
-      <Header/>
+      {/* <Header/>
+
+      <div className="justify-center flex">
+        <div className="m-2 text-xl lg:text-3xl text-greenTwo">Utah's Cannabis Community</div>
+      </div>
+
+      <Upcoming/> */}
       
-      <div className="">Upcoming</div>
-      
-      <div>Things to Know</div>
+      <ToKnow/>
+
     </main>
   );
 }
