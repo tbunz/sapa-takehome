@@ -4,12 +4,14 @@ import ToKnow from "./ToKnow";
 import Large from "./Large";
 import Faqs from "./Faqs";
 import Pharmacies from "./Pharmacies";
+import About from "./About";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
     <main className="min-h-screen flex-col flex">
      
-      {/* <Header/>
+      <Header/>
 
       <div className="justify-center flex">
         <div className="m-2 text-xl lg:text-3xl text-greenTwo">Utah's Cannabis Community</div>
@@ -23,7 +25,11 @@ export default function Home() {
 
       <Faqs/>
 
-      <Pharmacies/> */}
+      <Pharmacies/>
+
+      <About/>
+
+      <Footer/>
 
     </main>
   );
