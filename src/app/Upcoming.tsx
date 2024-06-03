@@ -17,7 +17,7 @@ export default function Upcoming() {
         }
     ]
     const upcomingEvents = data.map((up) =>
-        <div className="text-sm lg:text-xl text-greenTwo font-prox font-regular mt-8 bg-greyThree rounded-lg border border-greenThree justify-around flex">
+        <div className="text-sm lg:text-xl text-greenThree font-prox font-regular mt-8 bg-greyThree rounded-lg border border-greenThree justify-around flex">
             <div className="text-center m-1.5 basis-1/4 lg:basis-1/8 flex flex-col justify-center">
                 <div>{up.location}</div>
             </div>
@@ -31,7 +31,7 @@ export default function Upcoming() {
             
 
             <div className="text-center m-1.5 basis-1/4 lg:basis-1/8 flex flex-col items-center justify-center">
-                <Link href="/book" className="w-4/5 lg:w-3/5 p-3 mr-2 text-lg rounded-md lg:rounded-full bg-tanTwo">Book Time</Link>
+                <Link href="/book" className="w-4/5 lg:w-3/5 p-3 mr-2 font-semibold text-lg rounded-md lg:rounded-full bg-tanTwo">Book Time</Link>
             </div>
         </div>
       );

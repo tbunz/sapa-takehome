@@ -1,6 +1,9 @@
 import Header from "./Header";
 import Upcoming from "./Upcoming";
 import ToKnow from "./ToKnow";
+import Large from "./Large";
+import Faqs from "./Faqs";
+import Pharmacies from "./Pharmacies";
 
 export default function Home() {
   return (
@@ -12,9 +15,15 @@ export default function Home() {
         <div className="m-2 text-xl lg:text-3xl text-greenTwo">Utah's Cannabis Community</div>
       </div>
 
-      <Upcoming/> */}
+      <Upcoming/>
       
       <ToKnow/>
+
+      <Large/>
+
+      <Faqs/>
+
+      <Pharmacies/> */}
 
     </main>
   );
